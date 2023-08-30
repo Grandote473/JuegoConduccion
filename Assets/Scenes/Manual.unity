@@ -1,0 +1,1770 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &205347684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 205347687}
+  - component: {fileID: 205347686}
+  - component: {fileID: 205347685}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &205347685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205347684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &205347686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205347684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &205347687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205347684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &721931361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 721931362}
+  m_Layer: 5
+  m_Name: Sliding Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &721931362
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721931361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1656810596}
+  m_Father: {fileID: 1225360811}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &764518297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764518298}
+  - component: {fileID: 764518301}
+  - component: {fileID: 764518300}
+  - component: {fileID: 764518299}
+  m_Layer: 5
+  m_Name: BTN_Volver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &764518298
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764518297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1372151429}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 248, y: 605}
+  m_SizeDelta: {x: 127.09891, y: 127.09891}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &764518299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764518297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 764518300}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1309844998}
+        m_MethodName: CambiarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Menu_Principal
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &764518300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764518297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1eecc1d2b9935424ca56537e65c2056e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &764518301
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764518297}
+  m_CullTransparentMesh: 0
+--- !u!1 &779143658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 779143659}
+  - component: {fileID: 779143662}
+  - component: {fileID: 779143661}
+  - component: {fileID: 779143660}
+  m_Layer: 5
+  m_Name: Scroll View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &779143659
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779143658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 912802247}
+  - {fileID: 1225360811}
+  m_Father: {fileID: 1372151429}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -62.7}
+  m_SizeDelta: {x: 650, y: 1174.5034}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &779143660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779143658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 1642708799}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 912802247}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 1225360812}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &779143661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779143658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &779143662
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779143658}
+  m_CullTransparentMesh: 0
+--- !u!1 &850943338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850943339}
+  - component: {fileID: 850943341}
+  - component: {fileID: 850943340}
+  m_Layer: 5
+  m_Name: fondo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &850943339
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850943338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1372151429}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000015259, y: 0.0021667}
+  m_SizeDelta: {x: 800, y: 1422.2268}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &850943340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850943338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8f355250dcc25604db6d9fb6ce8897bb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &850943341
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850943338}
+  m_CullTransparentMesh: 0
+--- !u!1 &912802246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912802247}
+  - component: {fileID: 912802250}
+  - component: {fileID: 912802249}
+  - component: {fileID: 912802248}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &912802247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912802246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1642708799}
+  m_Father: {fileID: 779143659}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &912802248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912802246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!114 &912802249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912802246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &912802250
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912802246}
+  m_CullTransparentMesh: 0
+--- !u!1 &1151475907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1151475908}
+  - component: {fileID: 1151475910}
+  - component: {fileID: 1151475909}
+  m_Layer: 5
+  m_Name: Titulo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1151475908
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151475907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1372151429}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0, y: 587.65}
+  m_SizeDelta: {x: 342.35672, y: 126.19964}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1151475909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151475907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 35
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Manual
+
+'
+--- !u!222 &1151475910
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151475907}
+  m_CullTransparentMesh: 0
+--- !u!1 &1225360810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225360811}
+  - component: {fileID: 1225360814}
+  - component: {fileID: 1225360813}
+  - component: {fileID: 1225360812}
+  m_Layer: 5
+  m_Name: Scrollbar Vertical
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1225360811
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225360810}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 721931362}
+  m_Father: {fileID: 779143659}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: -17}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1225360812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225360810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1656810597}
+  m_HandleRect: {fileID: 1656810596}
+  m_Direction: 2
+  m_Value: 1
+  m_Size: 0.016592046
+  m_NumberOfSteps: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1225360813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225360810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1225360814
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225360810}
+  m_CullTransparentMesh: 0
+--- !u!1 &1229724378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1229724379}
+  - component: {fileID: 1229724381}
+  - component: {fileID: 1229724380}
+  m_Layer: 5
+  m_Name: fondo negro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1229724379
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229724378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1372151429}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -24.7, y: -11.2}
+  m_SizeDelta: {x: 893.3185, y: 1529.7664}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1229724380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229724378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1229724381
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229724378}
+  m_CullTransparentMesh: 0
+--- !u!1 &1309844997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1309844999}
+  - component: {fileID: 1309844998}
+  m_Layer: 0
+  m_Name: Controlador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1309844998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309844997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d621c5398a013ec4997fb6a1ac119295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1309844999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309844997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 540, y: 960, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1372151425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1372151429}
+  - component: {fileID: 1372151428}
+  - component: {fileID: 1372151427}
+  - component: {fileID: 1372151426}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1372151426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372151425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1372151427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372151425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1372151428
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372151425}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1372151429
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372151425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1229724379}
+  - {fileID: 850943339}
+  - {fileID: 1151475908}
+  - {fileID: 764518298}
+  - {fileID: 779143659}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1642708798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642708799}
+  - component: {fileID: 1642708801}
+  - component: {fileID: 1642708800}
+  - component: {fileID: 1642708802}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1642708799
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642708798}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 912802247}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0.000056805762}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1642708800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642708798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "MUNICIPALIDAD DE C\xD3RDOBA\r\nGU\xCDA DEL BUEN CONDUCTOR\r\nNORMATIVAS
+    DE TR\xC1NSITO VIGENTES\r\n\r\nNota: La cruz indica la respuesta correcta.\r\n\r\n1)
+    La luz amarilla intermitente del sem\xE1foro indica:\r\nX a) Disminuir la marcha
+    y circular con m\xE1xima precauci\xF3n.\r\n b) Prioridad de paso.\r\n c) Prohibido
+    pasar.\r\n\r\n2) \xBFQui\xE9n tiene prioridad de paso en una rotonda?\r\n a)El
+    que intenta ingresar a la misma.\r\nX b)El que est\xE1 circulando por la misma.\r\n\r\n3)
+    La \u201Cbanda de detenci\xF3n\u201D, que es la l\xEDnea transversal ancha marcada
+    sobre la calzada\r\nindica:\r\n a)El cruce peatonal.\r\nX b)La obligaci\xF3n
+    de detener el veh\xEDculo antes de esta l\xEDnea.\r\n c)Indica separaci\xF3n
+    de carriles.\r\n\r\n4) \xBFEn curvas o pendientes qu\xE9 indica la demarcaci\xF3n
+    horizontal \u201Cdoble l\xEDnea amarilla o blanca\r\ncontinua\u201D?\r\na)Que
+    puede adelantarse.\r\nX b)Que no se puede adelantar.\r\n c)Que hay un obst\xE1culo
+    en el camino.\r\n\r\n5) Est\xE1 atravesando un cruce de avenidas sin sem\xE1foros
+    a 30 Km/h, Ud. est\xE1:\r\n a)Conduciendo demasiado despacio.\r\nX b)Conduciendo
+    de acuerdo con el reglamento.\r\n c)Sobrepasando el l\xEDmite de velocidad.\r\n\r\n6)
+    \xBFEn intersecciones semaforizadas debe avanzar con luz verde a su frente, si
+    del otro\r\nlado de la intersecci\xF3n hay un embotellamiento de tr\xE1nsito?\r\n
+    a)Es indiferente.\r\nX b)No.\r\n c)S\xED.\r\n\r\n7) \xBFQui\xE9n tiene prioridad
+    en una senda peatonal no regulada por agente de tr\xE1nsito, ni por sem\xE1foro?\r\nX
+    a)Los peatones en forma absoluta.\r\nb)Los veh\xEDculos, ya que la senda peatonal
+    obliga a los peatones a cruzar por ella, pero cuando el\r\ntr\xE1nsito vehicular
+    lo permita.\r\n\r\n8) \xBFAnte esta se\xF1al cu\xE1l es la conducta a seguir?\r\nX
+    a)Detener el veh\xEDculo en forma total.\r\n b)Disminuir la marcha para observar
+    el tr\xE1nsito.\r\n c)Continuar la marcha.\r\n\r\n9) \xBFCu\xE1l es la velocidad
+    m\xE1xima de circulaci\xF3n en avenidas de la Ciudad de C\xF3rdoba?\r\n a)40
+    Km/h.\r\nX b)60 Km/h.\r\n c)80 Km/h.\r\n\r\n10) \xBFLos veh\xEDculos que giran
+    en una esquina regulada por sem\xE1foros deben detener la marcha para\r\nceder
+    el paso a los peatones que est\xE1n por cruzar la calzada?\r\nX a) S\xED, siempre
+    que el peat\xF3n cruce con luz verde a su frente.\r\n b) No, los veh\xEDculos
+    tienen siempre prioridad.\r\n\r\n11) \xBFQu\xE9 debe hacer un conductor, antes
+    de llegar a una intersecci\xF3n, si desea girar a la\r\nizquierda o a la derecha?\r\na)Advertir
+    la maniobra con la luz de giro, conduciendo hacia el carril por el\r\nque pretende
+    girar con una antelaci\xF3n de 20 m.\r\nX b) Advertir la maniobra con la luz
+    de giro, conduciendo el hacia el carril por el que pretende girar con una antelaci\xF3n
+    de 30 m.\r\nc) Advertir la maniobra con la luz de giro, conduciendo el hacia
+    el carril por el\r\nque pretende girar con una antelaci\xF3n de 10m.\r\n\r\n12)
+    \xBFQu\xE9 debe hacer Ud., si llegando a un cruce en el que el sem\xE1foro se
+    encuentra en luz\r\nroja, un inspector de tr\xE1nsito le indica que contin\xFAe
+    la marcha?\r\n a)Indicarle al inspector que la luz est\xE1 roja.\r\nX b)Obedecer
+    la indicaci\xF3n del inspector.\r\n c)Esperar\xE1 que el sem\xE1foro indique
+    la luz verde y entonces continuar\xE1.\r\n\r\n13) \xBFDespu\xE9s de realizar
+    un adelantamiento, tiene Ud. la obligaci\xF3n de advertir con el gui\xF1o correspondiente
+    la maniobra de retorno?\r\nX a) S\xED, siempre que se modifica la trayectoria
+    de un veh\xEDculo es obligaci\xF3n colocar el gui\xF1o.\r\nb) S\xF3lo en horario
+    nocturno.\r\nc)No es obligatorio el uso del gui\xF1o para indicar esta maniobra.\r\n\r\n14)
+    Todo veh\xEDculo que se aproxima a un cruce NO semaforizado, debe ceder el paso
+    a los peatones \xBFEsto es obligatorio?:\r\nX a)Siempre.\r\n b)Nunca.\r\n c)Seg\xFAn
+    las circunstancias.\r\n\r\n15) Para advertir la inconveniencia del sobrepaso
+    al veh\xEDculo que se nos quiera adelantar se pondr\xE1:\r\n a) Luz de giro derecha.\r\n
+    b)Luz de baliza.\r\nX c)Luz de giro izquierda.\r\n\r\n16) \xBFSe puede circular
+    con un veh\xEDculo sobre las l\xEDneas pintadas en el pavimento que separan carriles?\r\n
+    a)S\xED.\r\nX b)No.\r\n\r\n17) \xBFQu\xE9 l\xEDnea pintada en el pavimento me
+    permite cambiar de carril?\r\n a)La l\xEDnea continua.\r\nX b)La l\xEDnea discontinua.\r\nc)La
+    l\xEDnea doble continua.\r\n\r\n18) \xBFLa luz roja intermitente del sem\xE1foro
+    qu\xE9 significa?\r\n a)Una se\xF1al de \u201CCEDA EL PASO\u201D:\r\nX b)Una
+    se\xF1al de \u201CPARE\u201D:\r\n c)Indica disminuir la velocidad.\r\n\r\n19)
+    \xBFAl circular por la v\xEDa p\xFAblica conduciendo un automotor, debo portar
+    la licencia de conducir en vigencia?\r\n a)No.\r\nX b)S\xED.\r\n\r\n20) \xBFPor
+    qu\xE9 lugar y en qu\xE9 sentido deber\xE1 caminar el peat\xF3n en las zonas
+    donde no hay vereda?\r\nX a)Fuera de la calzada, en el sentido contrario a la
+    circulaci\xF3n vehicular.\r\n b)Sobre la calzada, en el mismo sentido de la circulaci\xF3n
+    vehicular.\r\n c)Fuera de la calzada, en el mismo sentido de la circulaci\xF3n
+    vehicular.\r\n\r\n22) El tri\xE1ngulo que est\xE1 pintado en la calzada indica:\r\na)El
+    sentido de circulaci\xF3n de los veh\xEDculos.\r\nb)Que circula por una avenida.\r\nX
+    c)La obligaci\xF3n de ceder el paso.\r\n\r\n24) \xBFtrat\xE1ndose de un cruce
+    NO semaforizado, qui\xE9n tiene prioridad de\r\npaso?\r\na)El veh\xEDculo, porque
+    siempre tiene prioridad en la calzada.\r\nX b)El peat\xF3n, ya que tiene intenci\xF3n
+    de cruzar por la senda peatonal.\r\nc)Es indiferente, ya que el veh\xEDculo puede
+    pasar sorteando al peat\xF3n.\r\n\r\n26) Al llegar a una intersecci\xF3n sin
+    se\xF1alizar, como conductor debo:\r\nX a)Ceder el paso a los veh\xEDculos que
+    se presenten por la derecha.\r\n b)Ceder el paso s\xF3lo a los veh\xEDculos que
+    circulen por la v\xEDa m\xE1s importante y principal.\r\n c)Ceder el paso s\xF3lo
+    a los veh\xEDculos que circulen a mayor velocidad que el m\xEDo.\r\n\r\n27) \xBFEn
+    qu\xE9 caso est\xE1 permitido adelantarse?\r\n a)En todas las intersecciones.\r\nX
+    b)En las rotondas.\r\n c)En los pasos para peatones y sus proximidades, si la
+    velocidad no es superior a 40 Km/h.\r\n\r\n28) \xBFQu\xE9 l\xEDnea pintada en
+    el pavimento me proh\xEDbe cambiar de carril?\r\nX a)Las continuas.\r\nb)Las
+    discontinuas.\r\n\r\n30) \xBF Est\xE1 permitido el adelantamiento por la derecha?\r\n
+    a)S\xED, siempre que al adelantamiento lo efect\xFAe por la banquina.\r\nX b)S\xED,
+    en calzadas de dos o m\xE1s carriles con el mismo sentido, siempre que los que
+    transiten por el carril izquierdo se encuentren moment\xE1neamente detenidos.\r\nc)Nunca.\r\n\r\n31)
+    Ud. circula por un carril que se encuentra pintado sobre el pavimento con una
+    flecha que indica s\xF3lo posibilidad de girar a la derecha. Ud. :\r\nX a)Debe
+    girar obligatoriamente a la derecha.\r\nb)Puede continuar la marcha sin girar.\r\n\r\n32)
+    \xBFEn una intersecci\xF3n semaforizada con luz roja a su frente, ante la indicaci\xF3n
+    del agente\r\nde tr\xE1nsito de avanzar, Ud. qu\xE9 hace?\r\n a) Detenerme, ya
+    que el sem\xE1foro est\xE1 en rojo.\r\nX b) Obedecer al agente de tr\xE1nsito.\r\n\r\n33)
+    En una intersecci\xF3n se presenta una bicicleta circulando por su derecha. \xBFUd.
+    conductor de un autom\xF3vil, debe cederle el paso?\r\nX a)S\xED, porque circula
+    por la derecha.\r\n b)No, el ciclista deber\xE1 cederme el paso porque es lento
+    su veh\xEDculo.\r\n c) No, el ciclista debe cederme el paso por cortes\xEDa.\r\n\r\n35)
+    \xBFEn qu\xE9 caso puede Ud. circular habi\xE9ndosele vencido el I.T.V. de su
+    veh\xEDculo?\r\nX a)En ninguno.\r\n b)Dentro de los 15 d\xEDas posteriores al
+    vencimiento.\r\n\r\n36) La luz del sem\xE1foro est\xE1 roja, pero la flecha de
+    giro derecho est\xE1 en verde. Esto le indica:\r\na)Que debo detenerme cualquiera
+    sea la direcci\xF3n que vaya a seguir.\r\nX b)Que debo girar obligatoriamente
+    a la derecha si estoy colocado en ese carril.\r\n c)Qu\xE9 est\xE1 prohibido
+    girar a la derecha.\r\n\r\n37) Si Ud. comete una infracci\xF3n al realizar una
+    maniobra de adelantamiento. \xBFPuede ser requerido para comprobar su grado de
+    alcoholemia?\r\nX a)S\xED, y tengo la obligaci\xF3n de someterme a tal comprobaci\xF3n.\r\nb)S\xED,
+    pero s\xF3lo si produjera un accidente\r\nc)No, no es obligatorio someterme a
+    tal comprobaci\xF3n.\r\n\r\n38) \xBFDeber\xE1 Ud. ceder el paso a los veh\xEDculos
+    de polic\xEDa, bomberos o ambulancias?\r\na)S\xED, porque siempre tienen prioridad
+    de paso.\r\nb)S\xED, pero solamente en v\xEDas urbanas.\r\nX c)S\xED, pero solamente
+    cuando se circule en servicio de urgencia\r\n\r\n39) \xBFDeber\xE1 Ud. circular
+    por la banquina para que otro conductor pueda adelantarle?\r\n a)S\xED, porque
+    as\xED tendr\xE1 m\xE1s espacio y el adelantamiento se realizar\xE1 con mayor
+    seguridad.\r\n b)S\xED, pero solamente en v\xEDas de un s\xF3lo carril para cada
+    sentido.\r\nX c)No, est\xE1 prohibida la circulaci\xF3n por la banquina excepto
+    situaci\xF3n de\r\nemergencia.\r\n\r\n40) En una calzada sin se\xF1alizaci\xF3n,
+    puede estacionar en:\r\nX a)El costado derecho, atento al sentido de circulaci\xF3n,
+    y a no menos de 5 m de la senda peatonal\r\n b)En el costado izquierdo, atento
+    al sentido de circulaci\xF3n, y a no menos de 5 m de la senda peatonal\r\nc)Es
+    indistinto, puedo hacerlo donde exista espacio.\r\n\r\n41) Ud. conductor, utiliza
+    las luces altas:\r\na)Cuando la luz natural es insuficiente.\r\nb)En cualquier
+    momento.\r\nX c)cuando las situaciones del tr\xE1nsito lo requieran, cambiando
+    a luz baja al\r\ncruce con otro veh\xEDculo de frente y cuando me aproximo al
+    veh\xEDculo que circula delante de\r\nm\xED.\r\n\r\n42) \xBFHay que encender
+    las luces de giro siempre que se produzca un cambio de carril?\r\na)No, solamente
+    si es de noche.\r\nX b)S\xED, tanto de d\xEDa como de noche\r\n\r\n43) \xBFEst\xE1
+    permitido mientras conduzco utilizar sistema de comunicaci\xF3n telef\xF3nica
+    manual?\r\n a)S\xED.\r\nX b)No.\r\n\r\n44) En la Ciudad de C\xF3rdoba es obligatorio
+    que los menores de 10 a\xF1os viajen:\r\na)En el asiento delantero, con cintur\xF3n
+    de seguridad.\r\nX b)En el asiento trasero, con cintur\xF3n de seguridad.\r\n
+    c)Es indistinto, siempre que est\xE9n con cintur\xF3n de seguridad.\r\n\r\n45)
+    El uso del cintur\xF3n de seguridad es obligatorio para:\r\n a)El conductor\r\n
+    b)El conductor y acompa\xF1ante.\r\nX c)Todos los ocupantes del veh\xEDculo en
+    movimiento.\r\n\r\n46) El veh\xEDculo que Ud. conduce debe exhibir sus chapas
+    patentes:\r\nX a)Colocadas fijas, en el lugar correspondiente, limpias y en buen
+    estado, que permita su legibilidad.\r\n b)Puedo llevarlas en el parabrisas y
+    luneta trasera.\r\n c)Es indistinto, siempre que las pueda exhibir frente a un
+    control de los agentes de tr\xE1nsito.\r\n\r\n47) Ud. conductor de autom\xF3vil,
+    tiene la obligaci\xF3n de realizar la Inspecci\xF3n T\xE9cnica Vehicular (I.T.V.):\r\nX
+    a)Si el veh\xEDculo tiene una antig\xFCedad mayor a dos a\xF1os y renovarla anualmente.\r\n
+    b)Si el veh\xEDculo tiene una antig\xFCedad mayor a 3 a\xF1os y renovarla semestralmente.\r\n
+    c)Si el veh\xEDculo tiene una antig\xFCedad mayor a 2 a\xF1os y renovarla semestralmente.\r\n\r\n48)
+    En proximidad de establecimientos escolares, deportivos o de gran afluencia de
+    p\xFAblico, la\r\nvelocidad no deber\xE1 superar los:\r\nX a)30 Km/h.\r\n b)40
+    Km/h.\r\n c)60 Km/h\r\n\r\n49) \xBFEn una rotonda qui\xE9n tiene prioridad de
+    paso?\r\n a)El veh\xEDculo que ingresa.\r\nX b)El veh\xEDculo que egresa de la
+    rotonda.\r\n\r\n50) En una intersecci\xF3n semaforizada con luz intermitente
+    roja, debo efectuar el cruce:\r\na)A la misma velocidad con que circulaba.\r\nb)A
+    m\xEDnima velocidad y m\xE1xima precauci\xF3n.\r\nX c) Detener la marcha y s\xF3lo
+    reiniciarla cuando no existe riesgo alguno.\r\n\r\n51) \xBFCu\xE1ndo se pierde
+    la prioridad de paso de mano derecha?\r\n a)En avenidas.\r\nX b)Frente a la se\xF1al
+    \u201CPARE\u201D.\r\nc) Nunca.\r\n\r\n52) Las l\xEDneas pintadas en el pavimento
+    de color blanco y continuas, indican:\r\n a)La posibilidad de cambiar de carril.\r\nX
+    b)La imposibilidad de cambiar de carril.\r\n\r\n54) El l\xEDmite m\xE1ximo de
+    velocidad establecido en CALLES es:\r\na)50 Km/h.\r\nX b)40 Km/h.\r\nc)60 Km/h.\r\n\r\n55)
+    En una intersecci\xF3n NO SEMAFORIZADA, la velocidad m\xE1xima es:\r\nX a)30
+    Km/h.\r\n b)40 Km/h.\r\n c) 60 Km/h.\r\n\r\n56) \xBFCu\xE1ndo se pierde la prioridad
+    de paso de la mano derecha?\r\nX a)Cuando se desemboque de una v\xEDa de tierra
+    a una pavimentada.\r\n b)En avenidas.\r\n c)Nunca.\r\n\r\n57) El l\xEDmite m\xE1ximo
+    de velocidad establecido en v\xEDas con sem\xE1foros coordinados es:\r\n a)60km/h.\r\nX
+    b)Velocidad de la onda verde.\r\n c)40km/h.\r\n\r\n60) En v\xEDas que carezcan
+    de direcci\xF3n obligatoria se\xF1alizada, se entender\xE1:\r\n a)Que la v\xEDa
+    es de un solo sentido circulaci\xF3n.\r\nX b)Que la v\xEDa es de doble sentido
+    circulaci\xF3n.\r\n\r\n61) \xBFSi un veh\xEDculo nos quiere adelantar, qu\xE9
+    indicaci\xF3n debo realizar para anunciarle que no puede hacerlo?\r\n a)Luz de
+    giro derecha.\r\n b)Luz de baliza.\r\nX c)Luz de giro izquierda.\r\n\r\n62) En
+    un cruce NO SEMAFORIZADO, se produce un accidente en la senda peatonal, marcada
+    o no. \xBFQui\xE9n se presume responsable?\r\nX a)Al conductor.\r\nb)Al peat\xF3n,
+    ya que no cedi\xF3 el paso al autom\xF3vil.\r\nc)Al conductor si su veh\xEDculo
+    circulaba a m\xE1s de 40km/h.\r\n\r\n63) \xBFEst\xE1 permitido en un congestionamiento
+    vehicular adelantarse por la banquina?\r\na) S\xED.\r\nX b)No.\r\n\r\n64) Indique
+    en qu\xE9 lugar est\xE1 permitido el adelantamiento:\r\na)En intersecciones (esquinas).\r\nX
+    b)En v\xEDas con varios carriles de circulaci\xF3n en el mismo sentido.\r\n c)En
+    puentes, t\xFAneles, curvas.\r\n\r\n65) \xBFSi un veh\xEDculo nos quiere adelantar,
+    qu\xE9 indicaci\xF3n debo realizar para anunciarle que puede hacerlo sin riesgo?\r\nX
+    a)Luz de giro derecha.\r\n b)Luz de baliza.\r\n c)Ninguna indicaci\xF3n.\r\n\r\n66)
+    Indique cu\xE1l es la forma correcta de cruzar la calzada como peat\xF3n:\r\na)Por
+    cualquier lugar de la calzada, si no circulan veh\xEDculos.\r\nX b)Cuando no
+    exista demarcaci\xF3n peatonal, por la prolongaci\xF3n imaginaria de la acera.\r\nc)A
+    mitad de cuadra.\r\n\r\n67) En pasos peatonales a diferente nivel (a\xE9reo o
+    subterr\xE1neo). \xBFEl peat\xF3n est\xE1 obligado a utilizarlos?\r\nX a)S\xED.\r\n
+    b)No.\r\n\r\n68) \xBFQu\xE9 documentaci\xF3n NO es necesaria que lleve el conductor
+    de un veh\xEDculo particular?\r\n a)Licencia de conducir.\r\n b)C\xE9dula de
+    identificaci\xF3n del veh\xEDculo.\r\n c)Certificado de I.T.V., si correspondiere.\r\nX
+    d)Libreta de salud.\r\n\r\n69) \xBFSi mi veh\xEDculo es a G.N.C. ( gas natural
+    comprimido), es obligatorio portar la documentaci\xF3n habilitante y la tarjeta
+    de revisi\xF3n anual?\r\nX a)S\xED.\r\n b)No.\r\n c)Es indistinto, porque puede
+    convertir el combustible.\r\n\r\n70) Ud. realiz\xF3 el I.T.V. y porta el certificado
+    de aprobaci\xF3n, a posteriori circula sin paragolpes. \xBFLe est\xE1 permitido
+    circular?\r\n a)S\xED, ya que poseo el certificado aprobado de I.T.V.\r\nX b)No,
+    mi veh\xEDculo puede ser removido de la v\xEDa p\xFAblica por falta de seguridad.\r\n\r\n71)
+    \xBFCu\xE1l es el \xEDndice m\xE1ximo permitido de alcohol para un conductor
+    particular?\r\nX a)0,4 gr/l.\r\n b)0,2 gr/l.\r\n c)0,0 gr/l.\r\n\r\n72) \xBFEn
+    qu\xE9 casos la autoridad de control puede retener su licencia de conducir?\r\na)Por
+    cruzar un sem\xE1foro en rojo.\r\nX b)Por conducir alcoholizado.\r\nc)Por carecer
+    el veh\xEDculo de ambas chapas patentes.\r\n\r\n73) \xBFEn qu\xE9 situaciones
+    puede girar en \u201CU\u201D?\r\n a)En esquinas semaforizadas con giro izquierdo.\r\nb)A
+    mitad de cuadra.\r\nX c)En ning\xFAn caso.\r\n\r\n74) Ante un control vehicular,
+    mi veh\xEDculo puede ser removido de la v\xEDa p\xFAblica por:\r\nX a)Circular
+    sin ambas chapas patentes.\r\n b)Haberse vencido el tiempo del parqu\xEDmetro.\r\n
+    c)Cruzar un sem\xE1foro en rojo.\r\n\r\n75) Ante un control vehicular, mi veh\xEDculo
+    puede ser removido de la v\xEDa p\xFAblica por:\r\nX a)Circulo yo solo, y con
+    la licencia de conducir vencida.\r\n b)Circulo con licencia vencida, pero mi
+    acompa\xF1ante puede continuar conduciendo ya que posee la licencia en vigencia
+    acorde a la categor\xEDa de mi veh\xEDculo.\r\n c)Circulo sin seguro obligatorio.\r\n\r\n76)
+    \xBFEn intersecciones NO semaforizadas puedo girar a la izquierda?\r\nX a)S\xED.\r\n
+    b)No.\r\n\r\n78) Indique cual es la forma correcta de circular:\r\nX a)Conservando
+    la derecha, por el centro del carril y en el sentido de circulaci\xF3n se\xF1alizado.\r\n
+    b)Por sobre la l\xEDnea blanca discontinua del carril pintado sobre la calzada
+    y en el sentido de circulaci\xF3n se\xF1alizado.\r\n c)Por cualquier carril y
+    en el sentido de circulaci\xF3n se\xF1alizado.\r\n\r\n79) Indique ante qu\xE9
+    situaci\xF3n puede circular por la calzada el peat\xF3n:\r\n a)Cuando distribuya
+    propaganda, venta o solicite contribuciones en la calzada.\r\n b)Cuando permanezca
+    en la calzada conversando con el ocupante de un veh\xEDculo\r\ndetenido.\r\nX
+    c)Cuando cruce las intersecciones, por la senda que resulte de la prolongaci\xF3n
+    imaginaria de\r\nlas aceras\r\n\r\n80) \xBFEl circular sin portar la licencia
+    de conducir, es causal para que su veh\xEDculo sea removido de la v\xEDa p\xFAblica?\r\nX
+    a)S\xED.\r\n b)No.\r\n c)No, porque exhibo la c\xE9dula de identificaci\xF3n
+    de mi veh\xEDculo.\r\n\r\n81) La se\xF1alizaci\xF3n de tr\xE1nsito debe obligatoriamente
+    ser respetada por:\r\n a)El conductor.\r\nX b)El conductor y peat\xF3n.\r\n\r\n83)
+    Al estar Ud. habilitado a conducir mediante \u201Cla licencia de conducir correspondiente\u201D,
+    la misma implica:\r\nX a)Que Ud. acepta los controles y todo lo exigido por el
+    C\xF3digo de Tr\xE1nsito \r\nb)Que Ud. est\xE1 habilitado, pero no por ello sujeto
+    a controles.\r\nc)Que Ud. acepta los controles, pero no est\xE1 obligado a conocer
+    todas las normativas de tr\xE1nsito.\r\n\r\n84) Ud. conduce con licencia Categor\xEDa
+    B ( veh\xEDculos particulares). \xBFDicha licencia lo habilita a conducir motos?\r\na)S\xED.\r\nX
+    b)No.\r\nc)Es indistinto, puede conducir veh\xEDculos particulares y motos.\r\n\r\n85)
+    Ud. posee licencia profesional \u201CCategor\xEDa Transporte Escolar\u201D. \xBFDicha
+    licencia lo habilita a\r\nconducir veh\xEDculos particulares?\r\na)S\xED.\r\nX
+    b)No.\r\n\r\n86) \xBFEs v\xE1lida la licencia de conducir en la Ciudad de C\xF3rdoba.
+    si fue otorgada por otro Municipio o Comuna, siendo que el titular de la misma
+    se domicilia en la Ciudad de C\xF3rdoba?\r\n a)S\xED, siempre que se encuentre
+    en vigencia.\r\nX b)No tiene validez, ya que la licencia debe ser otorgada por
+    el municipio donde se domicilia el titular.\r\n c)Si, siempre que el titular
+    la porte, a los efectos de exhibirla ante la autoridad de control.\r\n\r\n87)
+    \xBFEn qu\xE9 plazo m\xE1ximo debo denunciar obligatoriamente todo cambio de
+    datos contenidos en mi licencia de conducir a los efectos de que no caduque la
+    misma?\r\na)120 d\xEDas.\r\nX b)90 d\xEDas.\r\nc)100 d\xEDas.\r\n\r\n88) \xBFEs
+    obligatorio que la licencia de conducir est\xE9 firmada por el titular de la
+    misma?\r\nX a)S\xED.\r\nb)No.\r\nc)Es indistinto, siempre y cuando lleve la firma
+    de la autoridad otorgante.\r\n\r\n89) Al solicitar la licencia de conductor Ud.
+    no usaba anteojos, al a\xF1o usa anteojos. \xBFUd. tiene\r\nobligaci\xF3n de
+    denunciar ante la oficina expedidora de licencias dicho cambio?\r\nX a)S\xED.\r\n
+    b)No.\r\n c)Es indistinto.\r\n\r\n90) Ud. conduce un veh\xEDculo particular.
+    \xBFPuede circular por v\xEDas o carriles selectivos, dentro del\r\nhorario de
+    la selectividad?\r\n a)S\xED.\r\nX b)No.\r\n c)No puedo circular por el carril
+    selectivo, si el mismo se encuentra controlado por un agente de tr\xE1nsito.\r\n\r\n91)
+    \xBFEn una v\xEDa de sentido direccional \xFAnico, puedo estacionar a mano izquierda?\r\nX
+    a)S\xED, estando expresamente permitido por la se\xF1al \u201Cin situ\u201D (en
+    el lugar).\r\n b)S\xED .\r\n c)Nunca.\r\n\r\n92) \xBFEl uso de cintur\xF3n de
+    seguridad y cabezales normalizados, es obligatorio?\r\nX a)S\xED.\r\n b)No.\r\n\r\n93)
+    \xBFSi Ud. conduce un veh\xEDculo sin limpiaparabrisas, puede ser sancionado
+    por la autoridad de\r\ncontrol?\r\nX a)S\xED.\r\nb)S\xED, siempre que en el momento
+    del control las condiciones clim\xE1ticas sean adversas \r\nc)No.\r\n\r\n94)
+    \xBFUd. puede ser sancionado con multa si el veh\xEDculo que conduce carece de
+    espejos retrovisores?\r\nX a)S\xED.\r\nb)No.\r\n\r\n95) Su veh\xEDculo carece
+    de guardabarros. \xBFLa autoridad de control puede trasladarlo con la gr\xFAa\r\nmunicipal
+    sac\xE1ndolo de circulaci\xF3n?\r\nX a)S\xED.\r\n b)No.\r\n c)La autoridad de
+    control puede labrarme acta de infracci\xF3n, pero no puede impedir que contin\xFAe
+    circulando.\r\n\r\n96) \xBFAnte un control vehicular, si los neum\xE1ticos de
+    mi veh\xEDculo no poseen el dibujo visible de las bandas de rodamiento, puede
+    ser trasladado con la gr\xFAa municipal sac\xE1ndolo de circulaci\xF3n?\r\nX
+    a)S\xED, porque constituye falta de seguridad activa.\r\n b)No.\r\n c)No, ya
+    que estoy circulando por v\xEDas urbanas.\r\n\r\n97) Ante un control vehicular
+    mi veh\xEDculo excede los niveles de producci\xF3n de humo y gases t\xF3xicos.
+    La autoridad de control puede:\r\n a)Solamente labrar acta de infracci\xF3n.\r\nX
+    b)Labrar acta de infracci\xF3n y trasladarlo con la gr\xFAa municipal sac\xE1ndolo
+    de circulaci\xF3n.\r\n\r\n98) Circulando con el certificado de I.T.V. aprobado,
+    ante un control vehicular se comprueba que mi veh\xEDculo excede los niveles
+    de humo y gases t\xF3xicos admitidos, mi veh\xEDculo puede:\r\n a)No ser sometido
+    a control, ya que poseo certificado de ITV aprobado.\r\n b)Ser sometido a control,
+    pero no ser sancionado ya que poseo certificado de ITV aprobado.\r\nX c)Ser trasladado
+    con la gr\xFAa municipal sac\xE1ndolo de circulaci\xF3n ya que est\xE1 en infracci\xF3n
+    y el\r\ncertificado de ITV aprobado es al momento de la Inspecci\xF3n, despu\xE9s
+    de la misma debo conservar el buen estado de mi veh\xEDculo.\r\n\r\n99) \xBFPuedo
+    reemplazar el dep\xF3sito de combustible original de mi veh\xEDculo por otro
+    recept\xE1culo?\r\na)S\xED, pero s\xF3lo temporariamente.\r\nX b)Est\xE1 absolutamente
+    prohibido.\r\n\r\n100) \xBFEs obligatorio circular con la documentaci\xF3n que
+    acredite la cobertura del seguro de mi\r\nveh\xEDculo?\r\n a)No, no es obligatorio
+    el seguro.\r\nX b)S\xED, debo circular con la p\xF3liza y la documentaci\xF3n
+    que acredite que mi seguro se encuentra en vigencia.\r\n\r\n101) \xBFEl portar
+    la p\xF3liza del seguro, acredita que mi veh\xEDculo se encuentra asegurado?\r\n
+    a)S\xED, lo acredita solamente exhibiendo la p\xF3liza del seguro.\r\nX b)No
+    , debo exhibir la documentaci\xF3n que acredite que mi seguro se encuentra en
+    vigencia al d\xEDa del control por la autoridad competente.\r\n\r\n102) En caso
+    de extrav\xEDo o sustracci\xF3n de las chapas patentes de mi veh\xEDculo, s\xF3lo
+    podr\xE9 circular:\r\n a)Con denuncia policial por el extrav\xEDo o sustracci\xF3n.\r\nX
+    b)Con autorizaci\xF3n en vigencia otorgada por el Registro Nacional de la Propiedad
+    del Automotor.\r\n\r\n103) \xBFEst\xE1 permitido ascender o descender de un veh\xEDculo
+    en movimiento?\r\nX a)No, est\xE1 absolutamente prohibido.\r\nb)S\xED , siempre
+    que el movimiento del veh\xEDculo sea m\xEDnimo.\r\nc)S\xED, siempre que el movimiento
+    del veh\xEDculo sea m\xEDnimo y que quien va a descender o ascender observe que
+    no pone en riesgo la seguridad de tr\xE1nsito.\r\n\r\n104) En una calzada con
+    estacionamiento permitido, puedo estacionar:\r\na)Dentro de los cinco metros
+    posteriores a la senda peatonal.\r\nX b)Despu\xE9s de los cinco metros posteriores
+    a la senda peatonal.\r\nc)Es indistinto, siempre que no estacione sobre la senda
+    peatonal.\r\n\r\n105) \xBFEn una calzada donde NO exista prohibici\xF3n de estacionamiento,
+    puedo estacionar\r\nen parada de transporte p\xFAblico?\r\na)S\xED, puedo estacionar
+    ya que no hay se\xF1al de \u201Cprohibido estacionar\u201D.\r\nX b)No puedo estacionar,
+    ya que est\xE1 prohibido hacerlo dentro de los 10m a cada lado de las paradas
+    de transporte p\xFAblico.\r\nc)Puedo estacionar, pero solamente despu\xE9s de
+    las 22 hs.\r\n\r\n106) \xBFEst\xE1 permitido que estacione mi veh\xEDculo en
+    la entrada de mi garaje particular?\r\nX a)No, ya que est\xE1 prohibido el estacionamiento
+    frente a entradas de garajes.\r\n b)No, ya que mi garaje est\xE1 sobre mano izquierda.\r\nc)S\xED,
+    puedo estacionar porque el garaje es de mi propiedad particular.\r\n\r\n107)
+    \xBFEst\xE1 permitido estacionar veh\xEDculos en la calzada a los efectos de
+    exponerlos para\r\nla venta?\r\n a)S\xED, siempre que esa calzada no se encuentre
+    se\xF1alizada con prohibici\xF3n de estacionamiento.\r\nX b)No, ya que est\xE1
+    prohibido estacionar veh\xEDculos a los efectos de exhibirlos para su venta.\r\nc)S\xED,
+    siempre que el estacionamiento para exhibici\xF3n lo realice sobre mano derecha.\r\n\r\n108)
+    \xBFEn horarios nocturnos, puedo estacionar frente al acceso de una playa de
+    estacionamiento si la misma se encuentra cerrada en ese horario?\r\na)S\xED,
+    ya que es de noche y verifico que la playa de estacionamiento no funciona.\r\nX
+    b)No, ya que est\xE1 prohibido estacionar frente a accesos de playas de estacionamiento.\r\nc)S\xED,
+    siempre que la playa de estacionamiento no est\xE9 funcionando y se encuentre
+    ubicada sobre mano derecha.\r\n\r\n109) \xBFEst\xE1 permitido conducir el veh\xEDculo
+    encolumn\xE1ndolo a uno de emergencia para aprovechar la prioridad de paso de
+    \xE9ste?\r\nX a)No, est\xE1 absolutamente prohibido.\r\n b)S\xED, siempre que
+    con mi circulaci\xF3n no entorpezca al veh\xEDculo de emergencia.\r\n\r\n110)
+    Est\xE1 permitido circular marcha atr\xE1s para:\r\nX a)Maniobras propias de
+    estacionamiento.\r\n b)Retomar otra calzada.\r\n c)Girar en \u201CU\u201D.\r\n\r\n111)
+    Est\xE1 permitido circular marcha atr\xE1s para:\r\n a)Retomar otra calzada.\r\nX
+    b)Egresar de una calle sin salida.\r\n c)Retomar la misma calzada pero en sentido
+    contrario.\r\n\r\n112) Est\xE1 permitido circular marcha atr\xE1s para:\r\nX
+    a)Egresar de un garaje.\r\nb)Acceder a una calle transversal.\r\n c)Retomar la
+    misma calzada pero en sentido contrario.\r\n\r\n113) \xBFEn una v\xEDa de m\xE1s
+    de dos carriles de igual sentido de circulaci\xF3n, puedo efectuar el\r\nadelantamiento
+    con maniobras zigzagueantes?\r\na)S\xED, ya que es una v\xEDa multicarril.\r\nX
+    b)No, los movimientos zigzagueantes est\xE1n prohibidos.\r\n c)S\xED, siempre
+    que est\xE9 atento a los riesgos del tr\xE1nsito.\r\n\r\n114) \xBFEstoy obligado
+    a ceder el paso a un veh\xEDculo de emergencia si el mismo NO lleva encendidas
+    sus se\xF1ales lum\xEDnicas y ac\xFAsticas de emergencia?\r\n a)S\xED, porque
+    es un veh\xEDculo de emergencia.\r\nX b)No, mi obligaci\xF3n es cederles el paso
+    cuando se encuentren en situaci\xF3n de emergencia, con sus se\xF1ales lum\xEDnicas
+    y ac\xFAsticas en funcionamiento.\r\n\r\n115) \xBFEst\xE1 permitido atravesar
+    un paso a nivel con sistemas de seguridad en advertencia por la\r\nproximidad
+    de un tren?\r\n a)S\xED, siempre que como conductor observe que el tren se encuentra
+    lejos.\r\nX b)No, est\xE1 absolutamente prohibido.\r\n c)S\xED, siempre que lo
+    realice con marcha r\xE1pida y observando que puedo hacerlo antes que el tren
+    que circula atraviese el paso a nivel.\r\n\r\n116) \xBFEn qu\xE9 casos est\xE1
+    permitido el adelantamiento por la derecha?\r\n a)Est\xE1 absolutamente prohibido.\r\nX
+    b)Est\xE1 permitido cuando por efectos de congesti\xF3n del tr\xE1nsito los veh\xEDculos
+    que circulan por el carril izquierdo est\xE9n moment\xE1neamente detenidos.\r\n
+    c)Est\xE1 permitido siempre que lo realice por la banquina.\r\n\r\n117) \xBFEn
+    que casos est\xE1 permitido el adelantamiento por la derecha?\r\nX a)Cuando el
+    veh\xEDculo que circula delante de m\xED ha colocado la luz de giro izquierda.\r\nb)Nunca.\r\nc)Siempre.\r\n\r\n118)
+    \xBFSi Ud. consume medicamentos que alteran sus facultades f\xEDsicas y/o s\xEDquicas
+    (sue\xF1o, cansancio, alteraci\xF3n visual, etc.), puede conducir?\r\n a)S\xED,
+    ya estoy acostumbrado al consumo.\r\nX b)Est\xE1 prohibido absolutamente\r\nc)S\xED
+    conduzco, pero nunca de noche.\r\n\r\n119) \xBFEl uso de la bocina est\xE1 permitido?\r\n
+    a)Siempre, al llegar a una intersecci\xF3n.\r\nX b)S\xF3lo en caso de peligro.\r\n
+    c)Siempre.\r\n\r\n120) \xBFEl uso de la bocina est\xE1 absolutamente prohibido?\r\n
+    a)S\xED.\r\nX b)No, ya que est\xE1 permitido su uso en caso de peligro.\r\n c)No,
+    ya que puedo utilizarla solamente de d\xEDa en intersecciones.\r\n\r\n121) El
+    uso de la bocina est\xE1 permitido:\r\na)Como se\xF1al ac\xFAstica a los efectos
+    de indicarle al veh\xEDculo que me precede que contin\xFAe circulando.\r\nX b)S\xF3lo
+    en caso de peligro.\r\n\r\n122) \xBFAnte la aver\xEDa de mi veh\xEDculo en caso
+    de fuerza mayor, puedo ser remolcado por otro,\r\nutilizando una cadena o soga?\r\n
+    a)S\xED, a los efectos de dejar la v\xEDa libre.\r\nX b)No, solamente puedo ser
+    remolcado utilizando elementos r\xEDgidos de acople.\r\n\r\n123) Est\xE1 permitido
+    estacionar:\r\n a)En las aceras \r\n b)En espacios verdes.\r\nX c)Sobre el costado
+    derecho, al sentido de circulaci\xF3n, y a una distancia no menor de los 5m del
+    borde de la senda peatonal\r\n\r\n124) Est\xE1 permitido estacionar:\r\n a)Sobre
+    la acera frente al ingreso de mi garaje.\r\n b)En rotonda.\r\nX c)En el costado
+    izquierdo de la calzada atento al sentido de circulaci\xF3n, se\xF1alizado con\r\n\r\n125)
+    \xBFEst\xE1 prohibido efectuar reparaciones en un veh\xEDculo sobre la calzada?\r\na)No,
+    siempre que el mismo est\xE9 estacionado sobre mano derecha.\r\nX b)S\xED est\xE1
+    prohibido, excepto deba realizar la reparaci\xF3n a los efectos de poder desplazar
+    mi veh\xEDculo para dejar la v\xEDa libre.\r\n\r\n126) \xBFEst\xE1 permitido
+    lavar los veh\xEDculos en la v\xEDa p\xFAblica?\r\n a)S\xED, pero solamente fuera
+    del \xE1rea central.\r\nX b)Est\xE1 absolutamente prohibido.\r\n c)S\xED, siempre
+    que lo realice sobre la vereda.\r\n\r\n127) \xBFSi conduzco una casa rodante
+    o veh\xEDculo con trailer, puedo estacionar para dormir\r\nsobre la calzada ?\r\na)S\xED,
+    siempre que el estacionamiento lo efect\xFAe sobre la mano derecha.\r\nb)No.\r\nX
+    c)S\xED, est\xE1 permitido solamente en espacios expresamente se\xF1alizados
+    a tal fin.\r\n\r\n128) Al salir de una playa de estacionamiento hacia la calzada
+    debo:\r\nX a)Ceder siempre el paso a los veh\xEDculos que circulan por la calzada.\r\n
+    b) salir a m\xEDnima velocidad y m\xE1xima precauci\xF3n, debiendo los veh\xEDculos
+    que circulan por la\r\ncalzada cederme el paso.\r\n\r\n129) \xBFAnte condiciones
+    climatol\xF3gicas adversas a qu\xE9 velocidad debo circular?\r\n a)A la velocidad
+    m\xE1xima permitida para el tipo de v\xEDa por la que circulo.\r\n b)A la velocidad
+    m\xEDnima permitida para el tipo de v\xEDa por la que circulo.\r\nX c)A la velocidad
+    m\xEDnima y precautoria, que me permita tener siempre el total dominio del veh\xEDculo,
+    atento a la transitabilidad de la v\xEDa.\r\n\r\n138) \xBFEn qu\xE9 lugares de
+    los citados est\xE1 prohibido adelantarse a otros veh\xEDculos?\r\nX a)En puentes,
+    t\xFAneles, al atravesar v\xEDas f\xE9rreas, en encrucijadas, en curvas.\r\nb)En
+    puentes y t\xFAneles solamente.\r\n\r\n139) \xBFQu\xE9 veh\xEDculos tienen siempre
+    prioridad de paso?\r\n a)Ambulancias, polic\xEDas, bomberos y transportes escolares.\r\nb)Ambulancias,
+    polic\xEDa y bomberos.\r\nX c)Ambulancias, polic\xEDas y bomberos en situaci\xF3n
+    de emergencia con sus se\xF1ales lum\xEDnicas y ac\xFAsticas en funcionamiento.\r\n\r\n140)
+    \xBFQu\xE9 normas deben ser respetadas por los ciclistas?\r\na)Las normas para
+    peatones.\r\nX b)Las normas para los conductores.\r\nc)Ningunas.\r\n\r\n141)
+    Si Ud. tiene intenci\xF3n de girar \xBFcon cu\xE1ntos metros antes debe iniciar
+    la maniobra, advirti\xE9ndola con la luz de giro correspondiente?\r\na)10m.\r\nb)20m.\r\nX
+    c)30m.\r\n\r\n142) \xBFQu\xE9 significa la luz roja intermitente del sem\xE1foro?\r\n
+    a)Una se\xF1al de \u201CCEDA EL PASO\u201D.\r\nX b)Una se\xF1al de \u201CPARE\u201D.\r\n\r\n143)
+    Las se\xF1ales informativas son de color:\r\n a)Rojas.\r\nb)Amarillas.\r\nX c)Azules.\r\n\r\n144)
+    En el estacionamiento paralelo al cord\xF3n \xBF a qu\xE9 distancia debe estacionar
+    el veh\xEDculo con\r\nrespecto al cord\xF3n de la acera?\r\nX a)No mayor de 20
+    cm.\r\n b)No mayor a 30 cm.\r\n c)No mayor a 40 cm.\r\n\r\n145) En un estacionamiento
+    paralelo al cord\xF3n \xBFQu\xE9 separaci\xF3n m\xEDnima debe guardar entre\r\nparagolpes
+    con respecto a los otros veh\xEDculos?\r\na)M\xEDnimo 30 cm.\r\n b)M\xEDnimo
+    40 cm.\r\nX c)M\xEDnimo 50 cm.\r\n\r\n146) Los cinturones de seguridad son \xFAtiles
+    cuando viaja en rutas, pero en la ciudad no son necesarios\r\na)Verdadero.\r\nX
+    b)Falso.\r\n\r\n147) Las se\xF1ales informativas advierten al conductor sobre
+    un posible riesgo en el camino\r\n a)Verdadero.\r\nX b)Falso.\r\n\r\n148) En
+    cuestas estrechas \xBFqu\xE9 autom\xF3vil tiene prioridad de paso?\r\nX a)El
+    que asciende.\r\n b)El que desciende.\r\n\r\n150) Ud. utiliza los destellos luminosos
+    para:\r\nX a)Advertir el cruce en las intersecciones.\r\n b)Efectuar un giro.\r\n\r\n151)
+    \xBFEst\xE1 permitida la utilizaci\xF3n de las luces intermitentes de emergencia
+    en circulaci\xF3n\r\nnormal?\r\n a)S\xED.\r\nX b)No.\r\n\r\n152) \xBFQu\xE9 debe
+    hacer cuando el autom\xF3vil que est\xE1 inmediatamente delante del suyo est\xE1
+    esperando para girar a la izquierda?\r\nX a)Constato que el carril derecho se
+    encuentre libre y me adelanto por el carril derecho.\r\nb)Me adelanto con cuidado
+    por la izquierda.\r\nc)Toco la bocina para indicarle que contin\xFAe la marcha.\r\n\r\n154)
+    Detener un veh\xEDculo en la v\xEDa p\xFAblica es inmovilizarlo el tiempo indispensable
+    para efectuar el ascenso y/o descenso de personas, equipajes o cargas con permanencia
+    del conductor en el veh\xEDculo.\r\nX a)Verdadero.\r\nb)Falso.\r\n\r\n155) Las
+    se\xF1ales preventivas proh\xEDben y restringen.\r\n a)Verdadero.\r\nX b)Falso.\r\n\r\n156)
+    \xBFA que se denomina demarcaci\xF3n horizontal?\r\n a)A los sem\xE1foros.\r\n
+    b)A toda la se\xF1alizaci\xF3n vial.\r\nX c)A las marcas pintadas en el pavimento.\r\n\r\n157)
+    \xBFC\xF3mo debe estacionar en una calle con pendiente?\r\na)Colocando el freno
+    de mano.\r\n b)Con las ruedas transversales al cord\xF3n de la acera .\r\nX c)Con
+    las ruedas transversales al cord\xF3n de la acera y el freno de mano colocado.\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 20, y: 0, z: 20, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1642708801
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642708798}
+  m_CullTransparentMesh: 0
+--- !u!114 &1642708802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642708798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!1 &1656810595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1656810596}
+  - component: {fileID: 1656810598}
+  - component: {fileID: 1656810597}
+  m_Layer: 5
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1656810596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656810595}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 721931362}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1656810597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656810595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1656810598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656810595}
+  m_CullTransparentMesh: 0
+--- !u!1 &1930331281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1930331284}
+  - component: {fileID: 1930331283}
+  - component: {fileID: 1930331282}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1930331282
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930331281}
+  m_Enabled: 1
+--- !u!20 &1930331283
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930331281}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1930331284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930331281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

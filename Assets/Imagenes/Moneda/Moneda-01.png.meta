@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 098af7fa3acca484baba988baea127e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2080475303306106603
+    second: Moneda-01_0
+  - first:
+      213: 3801019402205597599
+    second: Moneda-01_1
+  - first:
+      213: -6218447872566360158
+    second: Moneda-01_2
+  - first:
+      213: -5351580782552018218
+    second: Moneda-01_3
+  - first:
+      213: -8803333911683570193
+    second: Moneda-01_4
+  - first:
+      213: 4384492904649278116
+    second: Moneda-01_5
+  - first:
+      213: -930238206012879825
+    second: Moneda-01_6
+  - first:
+      213: -7628430361265943552
+    second: Moneda-01_7
+  - first:
+      213: -640424710977918864
+    second: Moneda-01_8
+  - first:
+      213: -3767926805693897322
+    second: Moneda-01_9
+  - first:
+      213: -3680705384542011526
+    second: Moneda-01_10
+  - first:
+      213: 683113593767265036
+    second: Moneda-01_11
+  - first:
+      213: 4400480763930852985
+    second: Moneda-01_12
+  - first:
+      213: 1670123886835824355
+    second: Moneda-01_13
+  - first:
+      213: -3089915611062251834
+    second: Moneda-01_14
+  - first:
+      213: 3088275636599384983
+    second: Moneda-01_15
+  - first:
+      213: 1797713939907668034
+    second: Moneda-01_16
+  - first:
+      213: -9024708548157389766
+    second: Moneda-01_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Moneda-01_0
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 802
+        width: 269
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be69889f3455fdc10800000000000000
+      internalID: 2080475303306106603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_1
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 802
+        width: 274
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f05d4f10fefb430800000000000000
+      internalID: 3801019402205597599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_2
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 802
+        width: 276
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7066d4b92a3b9a0800000000000000
+      internalID: -6218447872566360158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_3
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 802
+        width: 266
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d21e25d1ad5bb5b0800000000000000
+      internalID: -5351580782552018218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_4
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 802
+        width: 249
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe563fa037644d580800000000000000
+      internalID: -8803333911683570193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_5
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 802
+        width: 225
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a247d51119d8dc30800000000000000
+      internalID: 4384492904649278116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_6
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 802
+        width: 192
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c0b1eb7412713f0800000000000000
+      internalID: -930238206012879825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_7
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 802
+        width: 157
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c40fae00f522690800000000000000
+      internalID: -7628430361265943552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_8
+      rect:
+        serializedVersion: 2
+        x: 3993
+        y: 802
+        width: 114
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07867c45e11cc17f0800000000000000
+      internalID: -640424710977918864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_9
+      rect:
+        serializedVersion: 2
+        x: 4362
+        y: 802
+        width: 73
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69561f69882a5bbc0800000000000000
+      internalID: -3767926805693897322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_10
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 216
+        width: 114
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f718734f18becc0800000000000000
+      internalID: -3680705384542011526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_11
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 216
+        width: 157
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c030db9b138ea7900800000000000000
+      internalID: 683113593767265036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_12
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 216
+        width: 192
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97eb907a0f5a11d30800000000000000
+      internalID: 4400480763930852985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_13
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 216
+        width: 225
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e67ebd83d87d2710800000000000000
+      internalID: 1670123886835824355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_14
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 216
+        width: 247
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce43b07f1a6e15d0800000000000000
+      internalID: -3089915611062251834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_15
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 216
+        width: 266
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79befff3452cbda20800000000000000
+      internalID: 3088275636599384983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_16
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 216
+        width: 276
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248e6fbbd43c2f810800000000000000
+      internalID: 1797713939907668034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moneda-01_17
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 216
+        width: 274
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34c5a1f36bc1c280800000000000000
+      internalID: -9024708548157389766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

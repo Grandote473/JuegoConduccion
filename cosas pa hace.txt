@@ -1,0 +1,15 @@
+minimapa, flecha para obligar a girar al jugador que este en la calle,
+
+en las preguntas cuando se conteste que se ilumine en verde la correcta y en rojo las incorrectas,
+
+
+
++++los paneles se superponen,
+boton de salir en creditos e informacion no anda,
+el texto tiempo esta al revez (poner panel), 
++++minimapa no esta a la altura del joystick
+la animacion del fondo del menu esta mal puesta,
+cambiar los fps de la animacion del trafico,
+poner color al borde del circulo del joystick,
+
+hacer nivel 2 y 3
